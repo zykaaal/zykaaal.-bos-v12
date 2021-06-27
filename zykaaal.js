@@ -43,3 +43,5 @@ if (message.member.hasPermissions("ADMINISTRATOR")) permlvl = 3;
 if (message.author.id === ayarlar.sahip) permlvl = 4;
 return permlvl;
 };
+
+client.login("TOKEN");
