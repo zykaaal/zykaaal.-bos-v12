@@ -14,6 +14,7 @@ const path = require('path');
 const snekfetch = require('snekfetch'); 
 
 const prefix = ayarlar.prefix;
+const log = console.log
 
 
 client.commands = new Discord.Collection();
